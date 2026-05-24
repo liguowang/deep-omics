@@ -261,10 +261,10 @@
             <div class="p-5 border rounded shadow-sm bg-white h-100">
                 <h3 class="text-info mb-3"><i class="fa fa-hourglass-half"></i> <span data-zh="MetaAge 表观遗传时钟模型" data-en="MetaAge Epigenetic Clock Model">MetaAge 表观遗传时钟模型</span></h3>
                 <p class="lead" style="font-size: 1.5rem; line-height: 2.2rem; color: #555; text-align: justify; margin-top: 1rem;"
-                   data-zh="作为一款前沿的集成机器学习模型（Ensemble Machine-Learning Model），<b>MetaAge</b> 聚合了 15 个国际权威的表观遗传学基准时钟的“群体智慧”， 相比单一时钟 (Horvath、Hannum、Lin、ZhangEN, DunedinPACE、GrimAgeV1/V2、PhenoAge, YingCausAge, StocP， Stoc Z， StocH)，<b>MetaAge</b> 提供了更准确，更稳健的日历年龄估算、疾病与死亡风险预测。通过将您的生物学年龄与实际年龄及标准参考人群进行比对，数字化量化您的衰老速率，提供全方位的长寿与健康图谱。"
+                   data-zh="作为一款前沿的集成机器学习模型（Ensemble Machine-Learning Model），<b>MetaAge</b> 聚合了 15 个国际权威的表观遗传学基准时钟的“群体智慧”， 相比单一时钟 (such as Horvath, DunedinPACE and GrimAge)，<b>MetaAge</b> 提供了更准确，更稳健的日历年龄估算、疾病与死亡风险预测。通过将您的生物学年龄与实际年龄及标准参考人群进行比对，数字化量化您的衰老速率，提供全方位的长寿与健康图谱。"
                    data-en="As an advanced ensemble machine-learning framework, <b>MetaAge</b> integrates the collective intelligence of 15 internationally recognized benchmark epigenetic clocks. Compared with any individual clock—including Horvath, Hannum, Lin, ZhangEN, DunedinPACE, GrimAge V1/V2, PhenoAge, YingCausAge, StocP, Stoc Z, and StocH—<b>MetaAge</b> provides more accurate and robust estimation of biological age, as well as enhanced prediction of disease susceptibility and mortality risk. By benchmarking biological age against chronological age and population reference standards, MetaAge quantitatively characterizes individual aging trajectories and maps a comprehensive longevity and wellness profile.">
                     作为一款前沿的集成机器学习模型（Ensemble Machine-Learning Model），<b>MetaAge</b> 聚合了 15 个国际权威的表观遗传学基准时钟的“群体智慧”，
-                    相比单一时钟 (Horvath、Hannum、Lin、ZhangEN, DunedinPACE、GrimAgeV1/V2、PhenoAge, YingCausAge, StocP， Stoc Z， StocH)，<b>MetaAge</b> 提供了更准确，更稳健的日历年龄估算、疾病与死亡风险预测。通过将您的生物学年龄与实际年龄及标准参考人群进行比对，数字化量化您的衰老速率，提供全方位的长寿与健康图谱。
+                    相比单一时钟 (such as Horvath, DunedinPACE and GrimAge)，<b>MetaAge</b> 提供了更准确，更稳健的日历年龄估算、疾病与死亡风险预测。通过将您的生物学年龄与实际年龄及标准参考人群进行比对，数字化量化您的衰老速率，提供全方位的长寿与健康图谱。
                 </p>
             </div>
         </div>
@@ -357,7 +357,7 @@
                       <span data-zh="创始人 / 首席科学家" data-en="Founder / Chief Scientist">创始人 / 首席科学家</span>
                       <p style="font-size: 1.25rem; line-height: 1.8rem; color: #666; margin: 1rem 0; text-align: justify; padding: 0 1rem;"
                          data-zh="资深生物信息学专家。Mayo Clinic 生物信息学教授。致力于通过多组学数据整合与人工智能预测模型，推进个性化诊断，治疗和健康管理。"
-                         data-en="Expert in Computational Biology and Data Science. Professor of Biomedical Informatics at Mayo Clinic. Dedicated to advancing personalized diagnosis, targeted treatment, and precision health management through multi-omics data integration and AI-driven personalized medicine.">
+                         data-en="Expert in Computational Biology and Data Science and Professor of Biomedical Informatics at Mayo Clinic. Focused on advancing personalized medicine and precision health management through integrative multi-omics analysis and predictive modeling.">
                           资深生物信息学专家。Mayo Clinic 生物信息学教授。致力于通过多组学数据整合与人工智能预测模型，推进个性化诊断，治疗和健康管理。
                       </p>
                   </div>
@@ -463,136 +463,335 @@
       <div class="row">
           <div class="accordion-container">
 
-                <div class="accordion">
-                    <div class="accordion-header">
-                        <span>+</span>
-                        <h3>什么是生物学年龄（Biological Age）？</h3>
-                    </div>
-                    <div class="accordion-body">
-                        <p>
-                            <strong>生物学年龄（Biological Age，也称生理年龄）</strong>是指从生物学、细胞和器官功能层面量化的机体真实衰老程度。它不同于您的<strong>日历年龄（Chronological Age）</strong>——即身份证上的实际岁数。
-                        </p>
-                        <p>
-                            日历年龄每个人都以每年1岁的速度同等增长，而生物学年龄的增长速度则因人而异。它综合反映了遗传背景、生活方式（饮食、睡眠、运动）、心理压力及环境因素对身体造成的真实“磨损”。通过测算生物学年龄，我们可以更精准地评估一个人的健康状况和衰老速率。
-                        </p>
-                    </div>
-                </div>
 
-                <div class="accordion">
-                    <div class="accordion-header">
-                        <span>+</span>
-                        <h3>什么是 DNA 甲基化？</h3>
-                    </div>
-                    <div class="accordion-body">
-                        <p>
-                            <strong>DNA（脱氧核糖核酸）</strong>是生命遗传信息的载体。它是线性生物大分子，由四种化学碱基——A（腺嘌呤）、C（胞嘧啶）、G（鸟嘌呤）、T（胸腺嘧啶）作为基本单位串联而成。人类的每个细胞核里的DNA约含有30 亿个这样的碱基。
-                            在个体的一生中，DNA序列是基本不变的。自发或诱发改变（例如某个位点由 C 转变为 T）的过程被称为<strong>突变（Mutation）</strong>，突变通常是不可逆的。
-                        </p>
-                        <p>
-                            与突变不同，<strong>DNA甲基化（DNA Methylation）</strong>是对DNA序列的修饰（modification)。它是在不改变DNA序列的前提下，将一个化学基团<strong>甲基（-CH₃）</strong>，结合到碱基C上。这个过程就像在某个DNA片段上安装了“开关”。与突变不通， 甲基化是<strong>可逆的</strong>（即可以通过去甲基化恢复）。人类DNA中所有C的甲基化状态称为<strong>DNA甲基化图谱</strong>。
-                        </p>
-                        <p>
-                            DNA甲基化承载着关键的生物学控制功能。如果一个基因的调控区内的C被大量甲基化修饰，该基因就像被按下了关闭键，进入“沉默”状态。虽然DNA序列一辈子几乎一成不变，但DNA 甲基化的状态却是一个动态的过程，受多种内外因素调节。比如：
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>+</span>
+                <h3 data-zh="什么是生物学年龄（Biological Age）？" data-en="What is Biological Age?">
+                    什么是生物学年龄（Biological Age）？
+                </h3>
+            </div>
+            <div class="accordion-body">
+                <p data-zh="<strong>生物学年龄（Biological Age，也称生理年龄）</strong>是指从生物学角度（包括分子，细胞和组织器官层面）量化的机体真实衰老程度。它不同于您的<strong>日历年龄（Chronological Age, or Calendar Age）</strong>——从出生到当前时刻的时间长度。" 
+                   data-en="<strong>Biological Age (also known as physiological age)</strong> refers to the true rate of biological aging quantified at the molecular, cellular, tissue, and organ levels. It differs from your <strong>chronological age</strong>, which is simply the amount of time that has passed since your birth.">
+                    <strong>生物学年龄（Biological Age，也称生理年龄）</strong>是指从生物学角度（包括分子，细胞和组织器官层面）量化的机体真实衰老程度。它不同于您的<strong>日历年龄（Chronological Age）</strong>——从出生到当前时刻的时间长度。
+                </p>
+                <p data-zh="日历年龄每个人都以每年1岁的速度同等增长，而生物学年龄的增长速度则因人而异。它综合反映了遗传背景、生活方式（饮食、睡眠、运动）、情绪管理、心理压力，以及自然和社会环境对身体造成的真实“磨损”。相比于日历年龄，生物学年龄可以更准确地评估一个人的健康状况和衰老程度。" 
+                   data-en="While chronological age increases at a fixed rate of one year per year for everyone, biological age changes at varying rates depending on the individual. It comprehensively reflects the cumulative and genuine 'wear and tear' on the body driven by genetic background, lifestyle choices (diet, sleep, physical activity), emotional regulation, psychological stress, and environmental exposures. Compared to chronological age, biological age offers a significantly more accurate measurement for an individual's overall health status and true pace of aging.">
+                    日历年龄每个人都以每年1岁的速度同等增长，而生物学年龄的增长速度则因人而异。它综合反映了遗传背景、生活方式（饮食、睡眠、运动）、情绪管理、心理压力，以及自然和社会环境对身体造成的真实“磨损”。相比于日历年龄，生物学年龄可以更准确地评估一个人的健康状况和衰老程度。
+                </p>
+            </div>
+        </div>
+
+
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>+</span>
+                <h3 data-zh="什么是 DNA 甲基化？" data-en="What is DNA Methylation?">
+                    什么是 DNA 甲基化？
+                </h3>
+            </div>
+            <div class="accordion-body">
+                <p data-zh="<strong>DNA（脱氧核糖核酸）</strong>是生命遗传信息的载体。它是线性生物大分子，由四种化学碱基——A（腺嘌呤）、C（胞嘧啶）、G（鸟嘌呤）、T（胸腺嘧啶）作为基本单位串联而成。人类的每个细胞核里的DNA约含有30 亿个这样的碱基。在个体的一生中，DNA序列是基本不变的。自发或诱发改变（例如某个位点由 C 转变为 T）的过程被称为<strong>突变（Mutation）</strong>，突变通常是不可逆的。" 
+                   data-en="<strong>DNA (Deoxyribonucleic Acid)</strong> is the carrier of genetic information for life. It is a linear biological macromolecule composed of four chemical bases strung together as basic units: A (Adenine), C (Cytosine), G (Guanine), and T (Thymine). The nucleus of each human cell contains approximately 3 billion of these base pairs. Throughout an individual's lifetime, the primary DNA sequence remains virtually unchanged. Spontaneous or induced alterations in this sequence (such as a C-to-T transition at a specific site) are termed <strong>mutations</strong>, which are typically irreversible.">
+                    <strong>DNA（脱氧核糖核酸）</strong>是生命遗传信息的载体。它是线性生物大分子，由四种化学碱基——A（腺嘌呤）、C（胞嘧啶）、G（鸟嘌呤）、T（胸腺嘧啶）作为基本单位串联而成。人类的每个细胞核里的DNA约含有30 亿个这样的碱基。在个体的一生中，DNA序列是基本不变的。自发或诱发改变（例如某个位点由 C 转变为 T）的过程被称为<strong>突变（Mutation）</strong>，突变通常是不可逆的。
+                </p>
+                <p data-zh="与突变不同，<strong>DNA甲基化（DNA Methylation）</strong>是对DNA序列的修饰（modification）。它是在不改变DNA序列的前提下，将一个化学基团<strong>甲基（-CH₃）</strong>，结合到碱基C上。这个过程就像在某个DNA片段上安装了“开关”。与突变不同，甲基化是<strong>可逆的</strong>（即可以通过去甲基化恢复）。人类DNA中所有C的甲基化状态称为<strong>DNA甲基化图谱</strong>。" 
+                   data-en="Unlike mutations, <strong>DNA methylation</strong> is a chemical modification to the DNA sequence. It involves the attachment of a chemical group called a <strong>methyl group (-CH₃)</strong> onto a cytosine (C) base without altering the underlying genetic text. This biological process acts like a regulatory 'on/off switch' for specific DNA segments. Crucially, unlike mutations, DNA methylation is <strong>reversible</strong> (it can be undone via demethylation). The collective methylation status of all cytosines across human genome is referred to as the <strong>DNA methylation profile</strong>.">
+                    与突变不同，<strong>DNA甲基化（DNA Methylation）</strong>是对DNA序列的修饰（modification）。它是在不改变DNA序列的前提下，将一个化学基团<strong>甲基（-CH₃）</strong>，结合到碱基C上。这个过程就像在某个DNA片段上安装了“开关”。与突变不同，甲基化是<strong>可逆的</strong>（即可以通过去甲基化恢复）。人类DNA中所有C的甲基化状态称为<strong>DNA甲基化图谱</strong>。
+                </p>
+                <p data-zh="DNA甲基化承载着关键的生物学控制功能。如果一个基因的调控区内的C被大量甲基化修饰，该基因就像被按下了关闭键，进入“沉默”状态。虽然DNA序列一辈子几乎一成不变，但DNA甲基化的状态却是一个动态的过程，受多种内外因素调节。比如：" 
+                   data-en="DNA methylation carries vital biological regulatory functions. If the cytosines within a gene's regulatory region become heavily methylated, the gene is effectively switched off and enters a 'silenced' state. While the blueprint sequence of DNA remains largely static throughout life, DNA methylation patterns are highly dynamic and tightly regulated by a diverse range of internal and external factors, such as:">
+                    DNA甲基化承载着关键的生物学控制功能。如果一个基因的调控区内的C被大量甲基化修饰，该基因就像被按下了关闭键，进入“沉默”状态。虽然DNA序列一辈子几乎一成不变，但DNA甲基化的状态却是一个动态的过程，受多种内外因素调节。比如：
+                </p>
+                
+                <p style="margin-left: 1.5rem; text-indent: 0;" 
+                   data-zh="• <strong>生活方式与环境</strong>：个体的饮食习惯、运动频率、心理压力、睡眠质量，生活习惯（吸烟、饮酒）及环境污染等外界刺激，都会实时影响和调整体内 DNA 甲基化状态。<br>• <strong>体重</strong>：体重的变化比如肥胖，会影响和调整体内 DNA 甲基化状态。<br>• <strong>病毒感染</strong>：病毒感染会通过干扰人体细胞的甲基转移酶，诱导特定基因表达，从而改变DNA甲基化水平以逃避人体的免疫清除。<br>• <strong>疾病早期</strong>：比如，在癌症和阿尔茨海默病等疾病的临床前期，细胞异常代谢与慢性炎症会提早触发表观遗传酶类的紊乱，导致抑癌基因或神经保护基因的DNA发生异常甲基化。<br>• <strong>年龄</strong>：随着年龄的增长，人体内特定 DNA 片段的甲基化水平会呈现出规律性的演变，某些区域的甲基化程度会越来越高，而另一些区域则会越来越低。" 
+                   data-en="• <strong>Lifestyle & Environment</strong>: External stimuli such as dietary habits, physical activity frequency, psychological stress, sleep quality, habits (smoking, alcohol consumption), and environmental pollution can dynamically influence and alter DNA methylation states in real-time.<br>• <strong>Body Weight</strong>: Variations in body weight, such as obesity, directly affect and reshape personal DNA methylation status.<br>• <strong>Viral Infections</strong>: Pathogens can interfere with host intracellular methyltransferases to induce specific gene expressions, altering DNA methylation levels to evade host immune clearance.<br>• <strong>Early-stage Diseases</strong>: In the preclinical phases of chronic conditions like cancer or Alzheimer's disease, cellular metabolic abnormalities and chronic inflammation can prematurely disrupt epigenetic enzymes, triggering aberrant DNA methylation on tumor-suppressor or neuroprotective genes.<br>• <strong>Age</strong>: As time progresses, the methylation levels of specific DNA fragments exhibit highly predictable and chronological evolutionary patterns—certain genomic regions become increasingly hypermethylated, while others undergo gradual hypomethylation.">
+                    • <strong>生活方式与环境</strong>：个体的饮食习惯、运动频率、心理压力、睡眠质量，生活习惯（吸烟、饮酒）及环境污染等外界刺激，都会实时影响和调整体内 DNA 甲基化状态。<br>
+                    • <strong>体重</strong>：体重的变化比如肥胖，会影响和调整体内 DNA 甲基化状态。<br>
+                    • <strong>病毒感染</strong>：病毒感染会通过干扰人体细胞的甲基转移酶，诱导特定基因表达，从而改变DNA甲基化水平以逃避人体的免疫清除。<br>
+                    • <strong>疾病早期</strong>：比如，在癌症和阿尔茨海默病等疾病的临床前期，细胞异常代谢与慢性炎症会提早触发表观遗传酶类的紊乱，导致抑癌基因或神经保护基因的DNA发生异常甲基化。<br>
+                    • <strong>年龄</strong>：随着年龄的增长，人体内特定 DNA 片段的甲基化水平会呈现出规律性的演变，某些区域的甲基化程度会越来越高，而另一些区域则会越来越低。
+                </p>
+                
+                <p style="margin-top: 1.5rem; font-weight: 500; color: #002e5f;" 
+                   data-zh="前沿科学家们正是利用了甲基化随时间演变的特性，通过解析血液或组织中的 <strong>DNA甲基化图谱</strong>（构建表观遗传钟），来精准量化计算个体的<strong>“生物学年龄”（Biological Age）</strong>，并评估未来的慢性疾病演化风险。" 
+                   data-en="By leveraging these time-dependent evolution patterns of methylation, pioneering scientists can decode the <strong>DNA methylation profile</strong> (constructing epigenetic clocks) within blood or tissue samples. This enables them to precisely quantify an individual's <strong>biological age</strong> and evaluate prospective risks for chronic disease progression.">
+                    前沿科学家们正是利用了甲基化随时间演变的特性，通过解析血液或组织中的 <strong>DNA甲基化图谱</strong>（构建表观遗传钟），来精准量化计算个体的<strong>“生物学年龄”（Biological Age）</strong>，并评估未来的慢性疾病演化风险。
+                </p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>+</span>
+                <h3 data-zh="为什么 MetaAge 模型比其他的甲基化时钟（DNAm clock）更准确？" data-en="Why is the MetaAge model more accurate than other DNAm clock?">
+                    为什么 MetaAge 模型比其他的甲基化时钟（DNAm clock）更准确？
+                </h3>
+            </div>
+            <div class="accordion-body">
+                <p data-zh="单一的甲基化时钟（又称表观遗传时钟，Epigenetic clock）在预测日历年龄的准确性和评估疾病风险的表现上往往欠佳，主要由于以下几种局限性：" 
+                   data-en="Single DNA methylation clocks (also known as epigenetic clocks) often underperform in chronological age estimation and disease risk prediction, primarily due to the following limitations:">
+                    单一的甲基化时钟（又称表观遗传时钟，Epigenetic clock）在预测日历年龄的准确性和评估疾病风险的表现上往往欠佳，主要由于以下几种局限性：
+                </p>
+                
+                <ul style="padding-left: 1.5rem; margin-bottom: 1rem; color: #555; line-height: 2rem; font-size: 1.4rem;">
+                    <li data-zh="<b>位点覆盖有限：</b>只聚焦于特定的甲基化位点（CpG 位点），通常仅涵盖几百个 CpG。" 
+                        data-en="<b>Limited Site Coverage:</b> They focus only on narrow, predefined sets of methylation sites, typically restricted to a few hundred CpG sites.">
+                        <b>位点覆盖有限：</b>只聚焦于特定的甲基化位点（CpG 位点），通常仅涵盖几百个 CpG。
+                    </li>
+                    <li data-zh="<b>样本规模较小：</b>训练集所依托的样本量较少，统计效能不足。" 
+                        data-en="<b>Small Sample Sizes:</b> The statistical power is constrained by small sample sizes within their original training cohorts.">
+                        <b>样本规模较小：</b>训练集所依托的样本量较少，统计效能不足。
+                    </li>
+                    <li data-zh="<b>年龄分布不均一：</b>训练集样本的年龄分布严重失衡（例如绝大部分样品均来自成年人，缺乏儿童与青少年来源的对照基准）。" 
+                        data-en="<b>Skewed Age Distribution:</b> The training cohorts exhibit highly non-uniform age distributions (e.g., heavily biased toward middle-aged or older adults, lacking neonatal, pediatric, and adolescent reference samples).">
+                        <b>年龄分布不均一：</b>训练集样本的年龄分布严重失衡（例如绝大部分样品均来自成年人，缺乏儿童与青少年来源的对照基准）。
+                    </li>
+                    <li data-zh="<b>芯片平台过时：</b>底层训练数据依赖于陈旧的技术平台（如早期的 Illumina 450K 芯片）。" 
+                        data-en="<b>Outdated Platforms:</b> The baseline data heavily relies on obsolete high-throughput technologies, such as the early Illumina HumanMethylation450K BeadChip platform.">
+                        <b>芯片平台过时：</b>底层训练数据依赖于陈旧的技术平台（如早期的 Illumina 450K 芯片）。
+                    </li>
+                </ul>
+
+                <p style="margin-top: 1rem;"
+                   data-zh="相比之下，<b>MetaAge</b> 是一款前沿的集成机器学习模型（Ensemble Machine-Learning Model）与具备持续自我纠错能力的智能预测系统。它有机整合了包括 Horvath, Hannum, GrimAge V1/V2, PhenoAge, Zhang 以及专门用于捕捉随机衰老变化的 StocP, StocZ, StocH 等近 20 个国际权威时钟所涵盖的核心甲基化位点。通过运用超过 15,000 个跨越全年龄段（0–100岁）的健康人群庞大表观组学数据集作为训练集进行反复交叉验证与算法迭代，MetaAge 能够全面剔除单一时钟的系统性偏差，在提供稳健日历年龄估算的同时，大幅提升了对心血管、退行性疾病风险及全因死亡率的精准预测维度。" 
+                   data-en="In contrast, <b>MetaAge</b> is an advanced ensemble machine-learning model and a continuously self-correcting intelligent forecasting framework. It organically aggregates the essential CpG targets from nearly 20 internationally authoritative algorithms—including Horvath, Hannum, GrimAge V1/V2, PhenoAge, Zhang, and the stochastic-specific StocP, StocZ, and StocH models. Trained and iteratively optimized against a massive, high-fidelity dataset of over 15,000 healthy individuals spanning the entire life course (0 to 100 years old), MetaAge thoroughly neutralizes the systematic biases inherent in any single baseline clock. This delivers a robust chronological age estimation while substantially enhancing clinical prediction alignment for cardiovascular risks, neurodegenerative declines, and all-cause mortality.">
+                    相比之下，<b>MetaAge</b> 是一款前沿的集成机器学习模型（Ensemble Machine-Learning Model）与具备持续自我纠错能力的智能预测系统。它有机整合了包括 Horvath, Hannum, GrimAge V1/V2, PhenoAge, Zhang 以及专门用于捕捉随机衰老变化的 StocP, StocZ, StocH 等近 20 个国际权威时钟所涵盖的核心甲基化位点。通过运用超过 15,000 个跨越全年龄段（0–100岁）的健康人群庞大表观组学数据集作为训练集进行反复交叉验证与算法迭代，MetaAge 能够全面剔除单一时钟的系统性偏差，在提供稳健日历年龄估算的同时，大幅提升了对心血管、退行性疾病风险及全因死亡率的精准预测维度。
+                </p>
+            </div>
+        </div>
+
+
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>+</span>
+                <h3 data-zh="什么是“年龄加速（Age Acceleration）”？" data-en="What is 'Age Acceleration'?">
+                    什么是“年龄加速（Age Acceleration）”？
+                </h3>
+            </div>
+            <div class="accordion-body">
+                <div class="row align-items-center">
+                    
+                    <div class="col-lg-7 mb-4 mb-lg-0">
+                        <p style="font-size: 1.4rem; line-height: 2.2rem; color: #555; text-align: justify;"
+                           data-zh="<strong>年龄加速（Age Acceleration, AA）</strong>是指基于可量化的生物标志物，判断出一个人的生物学年龄（如 <b>MetaAge</b> 根据血液甲基化图谱测算出来的数值）大于（或小于）其日历年龄的现象。该术语被广泛应用于表观遗传学与现代长寿医学研究。"
+                           data-en="<strong>Age Acceleration (AA)</strong> describes a phenomenon where an individual's biological age is larger (or smaller) their calendar age. This concept is widely applied across epigenetics and modern longevity studies.">
+                            <strong>年龄加速（Age Acceleration, AA）</strong>是指基于可量化的生物标志物，判断出一个人的生物学年龄（如 <b>MetaAge</b> 根据血液甲基化图谱测算出来的数值）大于（或小于）其日历年龄的现象。该术语被广泛应用于表观遗传学与现代长寿医学研究。
                         </p>
                         
-                        <p style="margin-left: 1.5rem; text-indent: 0;">
-                            • <strong>生活方式与环境</strong>：个体的饮食习惯、运动频率、心理压力、睡眠质量，生活习惯（吸烟、饮酒）及环境污染等外界刺激，都会实时影响和调整体内 DNA 甲基化状态。<br>
-                            • <strong>体重</strong>：体重的变化比如肥胖，会影响和调整体内 DNA 甲基化状态。<br>
-                            • <strong>病毒感染</strong>：病毒感染会通过干人体细胞的甲基转移酶，诱导特定基因表达，从而改变DNA甲基化水平以逃避人体的免疫清除。<br>
-                            • <strong>疾病早期</strong>：比如，在癌症和阿尔茨海默病等疾病的临床前期，细胞异常代谢与慢性炎症会提早触发表观遗传酶类的紊乱，导致抑癌基因或神经保护基因的DNA发生异常甲基化。<br>
-                            • <strong>年龄</strong>：随着年龄的增长，人体内特定 DNA 片段的甲基化水平会呈现出规律性的演变，某些区域的甲基化程度会越来越高，而另一些区域则会越来越低。
+                        <div class="p-3 my-3 rounded" style="background-color: #f8f9fa; border-left: 4px solid #00bfff; font-size: 1.3rem;">
+                            <ul class="list-unstyled mb-0" style="padding-left: 0;">
+                                <li class="mb-2" 
+                                    data-zh="<i class='fa fa-calendar-o text-info mr-2'></i> <strong>日历年龄（时序年龄）：</strong>您自出生以来的实际时间长度。"
+                                    data-en="<i class='fa fa-calendar-o text-info mr-2'></i> <strong>Chronological Age:</strong> The actual duration of time that has elapsed since your birth.">
+                                    <i class="fa fa-calendar-o text-info mr-2"></i> <strong>日历年龄（时序年龄）：</strong>您自出生以来的实际时间长度。
+                                </li>
+                                <li data-zh="<i class='fa fa-heartbeat text-danger mr-2'></i> <strong>生物学年龄（生理年龄）：</strong>基于分子，细胞和器官层面计算出来的年龄，反映机体真实的磨损与衰老程度。"
+                                    data-en="<i class='fa fa-heartbeat text-danger mr-2'></i> <strong>Biological Age:</strong> Based on molecular footprints at the cellular and tissue levels, reflecting the body's genuine wear and tear.">
+                                    <i class="fa fa-heartbeat text-danger mr-2"></i> <strong>生物学年龄（生理年龄）：</strong>基于分子，细胞和器官层面计算出来的年龄，反映机体真实的磨损与衰老程度。
+                                </li>
+                            </ul>
+                        </div>
+
+                        <p style="font-size: 1.4rem; line-height: 2.2rem; color: #555; text-align: justify;"
+                           data-zh="如果您的生物学年龄高于实际日历年龄，两者的代数差就被称为<strong>正向年龄加速（+AA）</strong>，代表机体处于加速衰老状态；反之，若低于实际年龄，则称为<strong>延缓衰老（-AA）</strong>。"
+                           data-en="If your biological age exceeds your chronological age, the positive algebraic discrepancy is defined as <strong>Positive Age Acceleration (+AA)</strong>, indicating accelerated aging. Conversely, if it drops lower than your calendar age, it represents <strong>Decelerated Aging (-AA)</strong>.">
+                            如果您的生物学年龄高于实际日历年龄，两者的代数差就被称为<strong>正向年龄加速（+AA）</strong>，代表机体处于加速衰老状态；反之，若低于实际年龄，则称为<strong>延缓衰老（-AA）</strong>。
                         </p>
-                        
-                        <p style="margin-top: 1.5rem; font-weight: 500; color: #002e5f;">
-                            前沿科学家们正是利用了甲基化随时间演变的特性，通过解析血液或组织中的 <strong>DNA甲基化图谱</strong>（构建表观遗传钟），来精准量化计算个体的<strong>“生物学年龄”（Biological Age）</strong>，并评估未来的慢性疾病演化风险。
-                        </p>
+
+                        <div class="p-3 border rounded bg-white text-center shadow-sm" style="max-width: 360px; margin: 1.5rem 0;">
+                            <h6 class="font-weight-bold mb-2" style="font-size: 1.3rem; color: #333;"
+                                data-zh="【测评示例 - The Difference Method】"
+                                data-en="【Assessment Example - The Difference Method】">
+                                【测评示例 - The Difference Method】
+                            </h6>
+                            <div class="row style-sm" style="font-size: 1.3rem; color: #666;">
+                                <div class="col-6 text-right" data-zh="实际日历年龄：" data-en="Chronological Age:">实际日历年龄：</div>
+                                <div class="col-6 text-left font-weight-bold" data-zh="50 岁" data-en="50 Years Old">50 岁</div>
+                                <div class="col-6 text-right" data-zh="估算生物学年龄：" data-en="Estimated Biological Age:">估算生物学年龄：</div>
+                                <div class="col-6 text-left font-weight-bold text-danger" data-zh="58 岁" data-en="58 Years Old">58 岁</div>
+                            </div>
+                            <hr class="my-2">
+                            <div class="font-weight-bold" style="font-size: 1.3rem; color: #dc3545;"
+                                 data-zh="差值法年龄加速：<span class='badge badge-danger' style='font-size: 1.2rem; padding: 0.3rem 0.6rem;'>+8 年</span>"
+                                 data-en="Difference Age Acceleration: <span class='badge badge-danger' style='font-size: 1.2rem; padding: 0.3rem 0.6rem;'>+8 Years</span>">
+                                差值法年龄加速：<span class="badge badge-danger" style="font-size: 1.2rem; padding: 0.3rem 0.6rem;">+8 年</span>
+                            </div>
+                        </div>
                     </div>
+
+                    <div class="col-lg-5 text-center">
+                        <div class="img-container p-2 border rounded bg-white shadow-sm" style="overflow: hidden;">
+                            <img src="./images/img5.jpg" alt="DNA甲基化生物学年龄与年龄加速计算原理" class="img-fluid rounded" style="max-height: 380px; width: auto; object-fit: contain;">
+                            <div class="mt-2 text-muted" style="font-size: 1.1rem; font-style: italic;"
+                                 data-zh="图：基于线性回归残差法的衰老加速与延缓数学模型"
+                                 data-en="Fig: Mathematical model of accelerated & decelerated aging via linear regression residual method">
+                                图：基于线性回归残差法的衰老加速与延缓数学模型
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
 
-                <div class="accordion">
-                  <div class="accordion-header">
-                      <span>+</span>
-                      <h3>什么是“年龄加速（Age Acceleration）”？</h3>
-                  </div>
-                  <div class="accordion-body">
-                      <div class="row align-items-center">
-                          
-                          <div class="col-lg-7 mb-4 mb-lg-0">
-                              <p style="font-size: 1.4rem; line-height: 2.2rem; color: #555; text-align: justify;">
-                                  <strong>年龄加速（Age Acceleration, AA）</strong>是指基于可量化的生物标志物（如 <b>MetaAge</b> 模型测算的生物学年龄），判断出一个人的生物学年龄在生理表现上快于（或慢于）其日历年龄的现象。该术语被广泛应用于表观遗传学与现代长寿医学领域。
-                              </p>
-                              
-                              <div class="p-3 my-3 rounded" style="background-color: #f8f9fa; border-left: 4px solid #00bfff; font-size: 1.3rem;">
-                                  <ul class="list-unstyled mb-0" style="padding-left: 0;">
-                                      <li class="mb-2"><i class="fa fa-calendar-o text-info mr-2"></i> <strong>日历年龄（时序年龄）：</strong>您自出生以来的实际时间长度。</li>
-                                      <li><i class="fa fa-heartbeat text-danger mr-2"></i> <strong>生物学年龄（生理年龄）：</strong>基于细胞和器官层面的分子印记，反映机体真实的磨损与衰老程度。</li>
-                                  </ul>
-                              </div>
+                <div class="mt-4 pt-3 border-top">
+                    <p class="mb-0" style="font-size: 1.4rem; line-height: 2.2rem; color: #555; text-align: justify; background-color: #fcfcfc; padding: 1.2rem; border-radius: 4px;"
+                       data-zh="<i class='fa fa-calculator text-primary mr-2'></i><strong>从“差值法”到“残差法”的算法演进：</strong><br>上述简单的两数相减法在统计学上被称为<b>差值法（The Difference Method）</b>。这种方法计算出来的“年龄加速”往往带有系统性偏差（易受受试者自身实际年龄大小的非线性干扰）。为了彻底消除此类统计学偏倚，<b>Deep-Omics 核心平台</b> 在学术研究与临床交付中，普遍采用更严谨的<b>线性回归残差法（The Residual Method）</b>。如上图所示，残差法将年龄加速度定义为真实个体偏离群体平均值（回归线 y=x）的**残差距离**（+m 或 -n），从而确保评估结果都具备最高水准的客观性与跨年龄段可比性。"
+                       data-en="<i class='fa fa-calculator text-primary mr-2'></i><strong>Algorithm Evolution: From 'Difference' to 'Residual' Method:</strong><br>The deduction mentioned above is known statistically as <b>The Difference Method</b>. Age acceleration calculated via this approach frequently inherits systematic bias, as it is non-linearly influenced by the participant's absolute chronological age. To eliminate such bias, the <b>Deep-Omics core platform</b> utilizes the more sophisticated <b>Linear Regression Residual Method (The Residual Method)</b> for both research pipelines and clinical reporting. As modeled above, the residual method defines age acceleration as the absolute **residual distance** (+m or -n) a person deviates from the baseline (population mean), guaranteeing the highest standard of mathematical objectivity and cross-age cohort comparability.">
+                        <i class="fa fa-calculator text-primary mr-2"></i><strong>从“差值法”到“残差法”的算法演进：</strong><br>
+                        上述简单的两数相减法在统计学上被称为<b>差值法（The Difference Method）</b>。这种方法计算出来的“年龄加速”往往带有系统性偏差（易受受试者自身实际年龄大小的非线性干扰）。
+                        为了彻底消除此类统计学偏倚，<b>Deep-Omics 核心平台</b> 在学术研究与临床交付中，普遍采用更严谨的<b>线性回归残差法（The Residual Method）</b>。
+                        如上图所示，残差法将年龄加速度定义为真实个体偏离群体平均值（回归线 y=x）的**残差距离**（+m 或 -n），从而确保评估结果都具备最高水准的客观性与跨年龄段可比性。
+                    </p>
+                </div>
+            </div>
+        </div>
 
-                              <p style="font-size: 1.4rem; line-height: 2.2rem; color: #555; text-align: justify;">
-                                  如果您的生物学年龄高于实际日历年龄，两者的代数差就被称为<strong>正向年龄加速（+AA）</strong>，代表机体处于加速衰老状态；反之，若低于实际年龄，则称为<strong>延缓衰老（-AA）</strong>。
-                              </p>
 
-                              <div class="p-3 border rounded bg-white text-center shadow-sm" style="max-width: 360px; margin: 1.5rem 0;">
-                                  <h6 class="font-weight-bold mb-2" style="font-size: 1.3rem; color: #333;">【测评示例 - The Difference Method】</h6>
-                                  <div class="row style-sm" style="font-size: 1.3rem; color: #666;">
-                                      <div class="col-6 text-right">实际日历年龄：</div>
-                                      <div class="col-6 text-left font-weight-bold">50 岁</div>
-                                      <div class="col-6 text-right">估算生物学年龄：</div>
-                                      <div class="col-6 text-left font-weight-bold text-danger">58 岁</div>
-                                  </div>
-                                  <hr class="my-2">
-                                  <div class="font-weight-bold" style="font-size: 1.3rem; color: #dc3545;">
-                                      差值法年龄加速：<span class="badge badge-danger" style="font-size: 1.2rem; padding: 0.3rem 0.6rem;">+8 年</span>
-                                  </div>
-                              </div>
-                          </div>
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>+</span>
+                <h3 data-zh="如果我的测评结果显示“正向年龄加速”，是否意味着我已经处于病理状态？" data-en="If my results show 'Positive Age Acceleration', does it mean I am in a pathological state?">
+                    如果我的测评结果显示“正向年龄加速”，是否意味着我已经处于病理状态？
+                </h3>
+            </div>
+            <div class="accordion-body">
+                <p data-zh="请不必恐慌。正向年龄加速（+AA）代表您的机体生理衰老速率快于时序年龄，是身体处于“亚健康磨损”或存在潜在慢性风险的早期信号。<b>与不可逆的基因突变不同，DNA 甲基化修饰状态是动态的，因此具有高度的可逆性。</b>这一结果恰恰为您提供了干预的黄金窗口期。我们的专家团队会结合您的多组学量化结果，为您量身定制涵盖细胞级内源性抗衰、精准代谢调控及暴露组学干预（如作息、压力管理）的个性化方案，帮助您逆转表观遗传年龄，让身体重回健康状态。" 
+                   data-en="Please do not panic. Positive Age Acceleration (+AA) indicates that your biological aging rate is faster than your chronological age, serving as an early subclinical signal of accumulated physiological wear-and-tear or potential chronic health risks. <b>Importantly, unlike irreversible genetic mutations, DNA methylation patterns are dynamic and potentially reversible.</b> This finding therefore represents a valuable window of opportunity for targeted intervention. Our expert team will integrate your multi-omics quantitative profiles to develop a personalized strategy tailored to your unique biology, including cellular-level endogenous anti-aging approaches, precision metabolic regulation, and exposome-based interventions such as sleep optimization, lifestyle adjustment, and stress management. The goal is to help improve your epigenetic aging profile and support long-term health, resilience, and healthy aging.">
+                    请不必恐慌。正向年龄加速（+AA）代表您的机体生理衰老速率快于时序年龄，是身体处于“亚健康磨损”或存在潜在慢性风险的早期信号。<b>与不可逆的基因突变不同，DNA 甲基化修饰状态是动态的，因此具有高度的可逆性。</b>这一结果恰恰为您提供了干预的黄金窗口期。我们的专家团队会结合您的多组学量化结果，为您量身定制涵盖细胞级内源性抗衰、精准代谢调控及暴露组学干预（如作息、压力管理）的个性化方案，帮助您逆转表观遗传年龄，让身体重回健康与年轻状态。
+                </p>
+            </div>
+        </div>
 
-                          <div class="col-lg-5 text-center">
-                              <div class="img-container p-2 border rounded bg-white shadow-sm" style="overflow: hidden;">
-                                  <img src="./images/img5.jpg" alt="DNA甲基化生物学年龄与年龄加速计算原理" class="img-fluid rounded" style="max-height: 380px; width: auto; object-fit: contain;">
-                                  <div class="mt-2 text-muted" style="font-size: 1.1rem; font-style: italic;">
-                                      图：基于线性回归残差法的衰老加速与延缓数学模型
-                                  </div>
-                              </div>
-                          </div>
-                          
-                      </div>
 
-                      <div class="mt-4 pt-3 border-top">
-                          <p class="mb-0" style="font-size: 1.4rem; line-height: 2.2rem; color: #555; text-align: justify; background-color: #fcfcfc; padding: 1.2rem; border-radius: 4px;">
-                              <i class="fa fa-calculator text-primary mr-2"></i><strong>从“差值法”到“残差法”的算法演进：</strong><br>
-                              上述简单的两数相减法在统计学上被称为<b>差值法（The Difference Method）</b>。这种方法计算出来的“年龄加速”往往带有系统性偏差（易受受试者自身实际年龄大小的非线性干扰）。
-                              为了彻底消除此类统计学偏倚，<b>Deep-Omics 核心平台</b> 在学术研究与临床交付中，普遍采用更严谨的<b>线性回归残差法（The Residual Method）</b>。
-                              如上图所示，残差法将年龄加速度定义为真实个体偏离群体平均值（回归线 y=x）的**残差距离**（+m 或 -n），从而确保评估结果都具备最高水准的客观性与跨年龄段可比性。
-                          </p>
-                      </div>
 
-                  </div>
-              </div>
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>+</span>
+                <h3 data-zh="我应该多长时间进行一次表观遗传时钟检测？" data-en="How often should I test my epigenetic age ?">
+                    我应该多长时间进行一次表观遗传时钟复测？
+                </h3>
+            </div>
+            <div class="accordion-body">
+                <p data-zh="DNA 甲基化虽然是动态的，但其反映的是细胞和器官层面的深层分子印记，短期的日常波动（如某一天的熬夜）不会使其发生剧烈重构。因此，为了数字化、定量化地监测生活方式调整、精准营养干预或抗衰疗法的真实效果，我们建议<b>每 6 至 12 个月</b>进行一次 Hema-X 或 MetaAge 平台的深度复测。通过多时间点的纵向数据比对，您可以清晰地看到自身衰老速率曲线的放缓或逆转趋势。" 
+                   data-en="Although DNA methylation is dynamic, it reflects deep molecular blueprints at the cellular and tissue levels; transient daily fluctuations (such as one night of poor sleep) will not abruptly restructure your global profile. Therefore, to digitally and quantitatively monitor the genuine efficacy of your lifestyle modifications, precision nutrition, or anti-aging therapies, we recommend a deep follow-up evaluation on our Hema-X or MetaAge platforms <b>every 6 to 12 months</b>. Through longitudinal data comparison across multiple time points, you can clearly track the deceleration or reversal of your biological aging curve.">
+                    DNA 甲基化虽然是动态的，但其反映的是细胞和器官层面的深层分子印记，短期的日常波动（如某一天的熬夜）不会使其发生剧烈重构。因此，为了数字化、定量化地监测生活方式调整、精准营养干预或抗衰疗法的真实效果，我们建议<b>每 6 至 12 个月</b>进行一次 Hema-X 或 MetaAge 平台的深度复测。通过多时间点的纵向数据比对，您可以清晰地看到自身衰老速率曲线的放缓或逆转趋势。
+                </p>
+            </div>
+        </div>
 
-              <div class="accordion">
-                  <div class="accordion-header">
-                      <span>+</span>
-                      <h3>进行这些检测需要提供什么样本？</h3>
-                  </div>
-                  <div class="accordion-body">
-                      <p>我们的大部分检测项目（如 Hema-X 预测、免疫与应激激素评估等）仅需要微量的外周血样本。部分特定分子画像服务可以支持临床组织切片或唾液样本，具体请遵循采样盒指南。</p>
-                  </div>
-              </div>
 
-              <div class="accordion">
-                  <div class="accordion-header">
-                      <span>+</span>
-                      <h3>你们的检测结果多快可以出具报告？</h3>
-                  </div>
-                  <div class="accordion-body">
-                      <p>从实验室收到您符合质控标准的样本起，生物信息学管线分析、AI模型计算加专家审核通常需要 10-14 个工作日，届时您将在线收到加密的深度多组学分析报告。</p>
-                  </div>
-              </div>
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>+</span>
+                <h3 data-zh="生活方式的改变真的能延缓或“逆转”我的生物学年龄吗？" data-en="Can lifestyle interventions truly slow down—or even help reverse—biological aging?">
+                    生活方式的改变真的能延缓或“逆转”我的生物学年龄吗？
+                </h3>
+            </div>
+            <div class="accordion-body">
+                <p data-zh="<b>是的，科学研究已明确证实了这一点。</b>与一成不变的先天遗传密码（DNA 序列）不同，DNA 甲基化修饰具有高度的动态性与可逆性。这意味着您的行为、环境和生活方式并不会改变您的基因序列，但却能直接决定这些基因的‘开启’或‘关闭’状态。" 
+                   data-en="Yes, evidence shows that while we cannot stop chronological aging, lifestyle interventions can slow biological aging and even modestly reverse some of the molecular damage associated with it.">
+                    <b><b>是的，科学研究已明确证实了这一点。</b>与一成不变的先天遗传密码（DNA 序列）不同，DNA 甲基化修饰具有高度的动态性与可逆性。这意味着您的行为、环境和生活方式并不会改变您的基因序列，但却能直接决定这些基因的‘开启’或‘关闭’状态。
+                </p>
+                <p style="margin-top: 1rem;" 
+                   data-zh="多项国际前沿的长寿医学临床干预试验表明，通过精准营养干预（如富含特定甲基供体的膳食调控）、科学的规律运动、深度睡眠结构优化、主动式心理压力管理以及消除不良暴露（如戒烟限酒），能够有效靶向调控特定基因调控区上的甲基化修饰状态。这种细胞与组织器官深层生理印记的系统性重构，在临床多组学层面上便表现为生物学年龄的显著减小，即实现了分子层面的‘表观遗传学逆转’。" 
+                   data-en="Multiple global clinical trials in longevity medicine have successfully demonstrated that targeted precision nutrition (such as specialized methyl-donor dietary regimens), structured exercise, deep sleep architecture optimization, proactive psychological stress mitigation, and eliminating harmful exposures (e.g., smoking cessation) can effectively modulate the methylation profiles across key gene regulatory regions. This systematic reshaping of the deep physiological imprints within your cells and tissues directly translates into a quantifiable reduction in biological age, achieving what science defines as 'epigenetic reversal'.">
+                    多项国际前沿的长寿医学临床干预试验表明，通过精准营养干预（如富含特定甲基供体的膳食调控）、科学的规律运动、深度睡眠结构优化、主动式心理压力管理以及消除不良暴露（如戒烟限酒），能够有效靶向调控特定基因调控区上的甲基化修饰状态。这种细胞与组织器官深层生理印记的系统性重构，在临床多组学层面上便表现为生物学年龄的显著减小，即实现了分子层面的‘表观遗传学逆转’。
+                </p>
+            </div>
+        </div>
 
-          </div>
-      </div>
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>+</span>
+                <h3 data-zh="进行这些检测需要提供什么样本？" data-en="What kind of samples are required for these tests?">
+                    进行这些检测需要提供什么样本？
+                </h3>
+            </div>
+            <div class="accordion-body">
+                <p data-zh="我们的大部分检测项目（如基于 <b>Hema-X</b> 平台的深度推演、免疫效能与外周应激激素评估等）仅需要微量的外周血全血样本，采样过程高效且无创。" 
+                   data-en="The majority of our advanced evaluation pipelines—including deep inferences driven by the <b>Hema-X</b> platform, immune function forecasting, and peripheral stress hormone profiling—require only a micro-volume sample of peripheral whole blood, ensuring a highly efficient and minimally invasive process.">
+                    我们的大部分检测项目（如基于 <b>Hema-X</b> 平台的深度推演、免疫效能与外周应激激素评估等）仅需要微量的外周血全血样本，采样过程高效且无创。
+                </p>
+            </div>
+        </div>
+
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>+</span>
+                <h3 data-zh="表观遗传钟能够精准预测我的寿命或疾病发生时间吗？" 
+                    data-en="Can epigenetic clocks accurately predict my lifespan or the timing of disease onset?">
+                    表观遗传钟能够精准预测我的寿命或疾病发生时间吗？
+                </h3>
+            </div>
+            <div class="accordion-body">
+                <p data-zh="表观遗传钟<b>并不是</b>一个决定性的“生命倒计时器”，它无法预测突发事件或完全不可控的环境因素。它的核心价值在于<strong>基于大规模人群数据的统计学风险评估</strong>。高级模型（如集成算法 MetaAge）通过测量您当前的系统性生理衰老速率，可用于评估未来发生心血管疾病、II 型糖尿病、神经退行性疾病（如阿尔茨海默病）以及全因死亡风险的<strong>相对风险水平</strong>。它更像是长寿医学中的“早期预警雷达”，帮助您在临床症状出现前的 5–10 年发现潜在分子风险，从而尽早采取生活方式优化与精准干预，而非对未来作出宿命式预测。"
+                   
+                   data-en="An epigenetic clock is <b>not</b> a deterministic “death countdown timer.” It cannot predict unforeseen accidents or uncontrollable environmental factors. Its primary value lies in <strong>statistical risk assessment based on large-scale population data</strong>. Advanced models such as <b>MetaAge</b> estimate your current systemic biological aging rate and can help evaluate your <strong>relative risk</strong> for conditions including cardiovascular disease, type II diabetes, neurodegenerative disorders (such as Alzheimer’s disease), and all-cause mortality. Rather than delivering fatalistic predictions, epigenetic clocks function as an early-warning radar in longevity medicine—helping identify molecular vulnerabilities 5–10 years before clinical symptoms emerge, so that proactive lifestyle optimization and precision interventions can be implemented early.">
+                    表观遗传钟<b>并不是</b>一个决定性的“生命倒计时器”，它无法预测突发事件或完全不可控的环境因素。它的核心价值在于<strong>基于大规模人群数据的统计学风险评估</strong>。高级模型（如集成算法 MetaAge）通过测量您当前的系统性生理衰老速率，可用于评估未来发生心血管疾病、II 型糖尿病、神经退行性疾病（如阿尔茨海默病）以及全因死亡风险的<strong>相对风险水平</strong>。它更像是长寿医学中的“早期预警雷达”，帮助您在临床症状出现前的 5–10 年发现潜在分子风险，从而尽早采取生活方式优化与精准干预，而非对未来作出宿命式预测。
+                </p>
+            </div>
+        </div>
+
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>+</span>
+                <h3 data-zh="什么是“分子画像服务”？它在司法鉴定或筛查中如何发挥作用？" data-en="What is 'Molecular Phenotyping'? How does it work in forensic genomics?">
+                    什么是“分子画像服务”？它在司法鉴定或筛查中如何发挥作用？
+                </h3>
+            </div>
+            <div class="accordion-body">
+                <p data-zh="分子画像（Molecular Phenotyping）是一项基于分子（或基因型）数据的表型反向推演技术。当传统司法 DNA STR 数据库比对未命中时，Deep-Omics 利用检材中独特的 DNA 甲基化图谱，深度重构涉案人员或未知个体的核心表型特征。我们能够高精度反向推演其<b>真实的生物学年龄（误差通常在 ±2 岁以内）</b>、解密生理性别、评估体型特征（BMI），甚至能够精确破译其长期的暴露组学史（如是否有重度吸烟史、药物滥用、特定环境毒素暴露历史或 HIV 感染状态），为复杂案件的排查、失踪人口追踪及特定合规审查提供底层、不可伪造的科学画像支撑。" 
+                   data-en="Molecular Phenotyping is a pioneering technology for reverse trait prediction based on molecular and genotypic data. When traditional forensic DNA STR database matching draws a blank, Deep-Omics leverages the unique DNA methylation landscapes within biological samples to thoroughly reconstruct the core phenotypic traits of an individual. We can reversely deduce their <b>true biological age (with an accuracy typically within ±2 years)</b>, decipher physiological sex, evaluate body mass characteristics (BMI), and even accurately decode long-term exposome history (such as heavy smoking habits, substance abuse, specific environmental toxin exposures, or HIV infection status). This provides fundamental, unforgeable scientific intelligence for complex forensic investigations, missing person tracking, and specialized compliance screenings.">
+                    分子画像（Molecular Phenotyping）是一项基于分子（或基因型）数据的表型反向推演技术。当传统司法 DNA STR 数据库比对未命中时，Deep-Omics 利用检材中独特的 DNA 甲基化图谱，深度重构涉案人员或未知个体的核心表型特征。我们能够高精度反向推演其<b>真实的生物学年龄（误差通常在 ±2 岁以内）</b>、解密生理性别、评估体型特征（BMI），甚至能够精确破译其长期的暴露组学史（如是否有重度吸烟史、药物滥用、特定环境毒素暴露历史或 HIV 感染状态），为复杂案件的排查、失踪人口追踪及特定合规审查提供底层、不可伪造的科学画像支撑。
+                </p>
+            </div>
+        </div>
+
+
+        <div class="accordion">
+            <div class="accordion-header">
+                <span>+</span>
+                <h3 data-zh="Deep-Omics 如何保障我的个人基因与多组学数据隐私安全？" data-en="How does Deep-Omics protect the privacy and security of my data?">
+                    Deep-Omics 如何保障我的个人基因与多组学数据隐私安全？
+                </h3>
+            </div>
+            <div class="accordion-body">
+                <p data-zh="我们深知，多组学数据承载着个人最核心、最敏感的生物隐私信息。Deep-Omics 严格遵循国际最高标准的数据安全与隐私保护规范，建立了符合 HIPAA/GDPR 等国际合规要求的数据治理与安全体系，全面保障您的数据安全与个人隐私。" 
+                   data-en="We fully understand that multi-omics data contains an individual's most fundamental and sensitive biological privacy. Deep-Omics strictly adheres to the highest international standards for data compliance and privacy protection frameworks, establishing a data governance and security system in full alignment with HIPAA and GDPR requirements to comprehensively safeguard your data asset security and personal privacy.">
+                    我们深知，多组学数据承载着个人最核心、最敏感的生物隐私信息。Deep-Omics 严格遵循国际最高标准的数据安全与隐私保护规范，建立了符合 HIPAA/GDPR 等国际合规要求的数据治理与安全体系，全面保障您的数据安全与个人隐私。
+                </p>
+                
+                <ul style="padding-left: 1.5rem; margin-bottom: 0; color: #555; line-height: 2rem; font-size: 1.4rem;">
+                    <li data-zh="<b>样本去隐私化：</b>所有进入实验室的样本均通过随机生成的唯一条形码（Barcode）进行标识，实验流程中不包含任何可直接识别个人身份的临床信息，确保实验和数据分析人员无法获知您的身份信息。" 
+                        data-en="<b>Sample De-identification:</b> All biological samples entering our laboratories are uniquely identified using randomized barcodes. The experimental workflow strictly clinical of any direct personally identifiable information (PII), ensuring laboratory personnel have absolutely no access to your personal identities.">
+                        <b>样本去隐私化：</b>所有进入实验室的样本均通过随机生成的唯一条形码（Barcode）进行标识，实验流程中不包含任何可直接识别个人身份的临床信息，确保实验人员无法获知您的身份信息。
+                    </li>
+                    <li data-zh="<b>加密存储与计算：</b>Deep-Omics 多组学分析管线基于 Google Cloud Platform（GCP）企业级安全架构开展分布式计算。所有原始测序数据（如 FASTQ、CRAM 文件）及甲基化矩阵数据，均采用高强度加密机制进行传输与云端存储，确保数据全生命周期安全。" 
+                        data-en="<b>Encrypted Storage and Computing:</b> The Deep-Omics multi-omics analytical pipelines perform distributed computing powered by the enterprise-grade security architecture of Google Cloud Platform (GCP). All raw sequencing data (such as FASTQ and CRAM files) and downstream methylation matrices undergo maximum-strength encryption during transmission and cloud storage, ensuring end-to-end data lifecycle security.">
+                        <b>加密存储与计算：</b>Deep-Omics 多组学分析管线基于 Google Cloud Platform（GCP）企业级安全架构开展分布式计算。所有原始测序数据（如 FASTQ、CRAM 文件）及甲基化矩阵数据，均采用高强度加密机制进行传输与云端存储，确保数据全生命周期安全。
+                    </li>
+                    <li data-zh="<b>严格权限控制：</b>最终分析报告通过加密安全通道进行交付。未经您本人明确授权或法律法规要求，任何第三方（包括科研合作机构）均无权访问或查阅您的原始多组学数据及相关个人信息。" 
+                        data-en="<b>Strict Access Control:</b> Final analytical reports are delivered exclusively via enterprise-grade encrypted secure channels. Without your explicit personal consent or verification under specific legal regulations, no third party—including scientific or clinical research collaborators—has any permission to access or review your raw multi-omics datasets and related profile information.">
+                        <b>严格权限控制：</b>最终分析报告通过加密安全通道进行交付。未经您本人明确授权或法律法规要求，任何第三方（包括科研合作机构）均无权访问或查阅您的原始多组学数据及相关个人信息。
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+
+
   </section>
 
     <div class="footer">
