@@ -541,19 +541,21 @@
 
         <!-- Section 2 -->
         <p 
-            data-zh="<strong>2. 细胞学层面（细胞年龄）：</strong> <strong>端粒长度（Telomere Length）</strong>是染色体末端的保护结构，细胞每分裂一次，端粒便会缩短。当端粒过短时，细胞停止分裂并进入衰老状态。端粒长度曾被广泛视为重要的衰老标志物，但目前认为其对个体短期生物学年龄变化的敏感性不如表观遗传时钟。另一个重要指标是<strong>免疫细胞组成变化</strong>，例如外周血中的<strong>初始 T 细胞（Naive T Cells）</strong>和<strong>初始 B 细胞（Naive B Cells）</strong>减少，这是免疫系统衰老的重要标志。基于这些指标建立的“细胞年龄”具有较好的客观性和量化能力，目前仍被广泛应用。"
+            data-zh="<strong>2. 细胞学层面（细胞年龄）：</strong> <strong>端粒长度（Telomere Length）</strong>是染色体末端的保护结构，细胞每分裂一次，端粒便会缩短。当端粒过短时，细胞停止分裂并进入衰老状态。端粒长度曾被广泛视为重要的衰老标志物，但目前认为其对个体短期生物学年龄变化的敏感性不如表观遗传时钟。另一个重要指标是<strong>有丝分裂年龄（Mitotic Age）</strong>，即通过估算组织干细胞在生命周期中累计发生的细胞分裂次数来衡量生物学年龄。此外，<strong>免疫细胞组成变化</strong>也是评估衰老的重要依据。例如外周血中的<strong>初始 T 细胞（Naive T Cells）</strong>和<strong>初始 B 细胞（Naive B Cells）</strong>数量随年龄增长而减少，这是免疫系统衰老的重要标志。基于这些指标建立的“细胞年龄”具有较好的客观性和量化能力，目前仍被广泛应用。"
 
-            data-en="<strong>2. Cellular Level (Cellular Age):</strong> <strong>Telomere length</strong> refers to the protective structures located at the ends of chromosomes. With each cell division, telomeres gradually shorten; when they become critically short, cells stop dividing and enter senescence. Although telomere length was once regarded as a major biomarker of aging, it is now considered less sensitive than epigenetic clocks for detecting short-term biological aging changes. Another important indicator is the <strong>change in immune cell composition</strong>, such as reductions in <strong>naive T cells</strong> and <strong>naive B cells</strong> in peripheral blood, which are key hallmarks of immune aging. Cellular-age measurements based on these markers are objective, quantifiable, and still widely used today.">
+            data-en="<strong>2. Cellular Level (Cellular Age):</strong> <strong>Telomere length</strong> refers to the protective structures located at the ends of chromosomes. With each cell division, telomeres gradually shorten; when they become critically short, cells stop dividing and enter senescence. Although telomere length was once regarded as a major biomarker of aging, it is now considered less sensitive than epigenetic clocks for detecting short-term biological aging changes. Another important indicator is <strong>mitotic age</strong>, which estimates biological age based on the cumulative number of cell divisions undergone by tissue stem cells throughout life. In addition, <strong>changes in immune cell composition</strong> provide important information about aging. For example, reductions in <strong>naive T cells</strong> and <strong>naive B cells</strong> in peripheral blood are key hallmarks of immune aging. Cellular-age measurements based on these markers are objective, quantifiable, and remain widely used today.">
             
             <strong>2. 细胞学层面（细胞年龄）：</strong>
             <strong>端粒长度（Telomere Length）</strong>
             是染色体末端的保护结构，细胞每分裂一次，端粒便会缩短。当端粒过短时，细胞停止分裂并进入衰老状态。端粒长度曾被广泛视为重要的衰老标志物，但目前认为其对个体短期生物学年龄变化的敏感性不如表观遗传时钟。另一个重要指标是
-            <strong>免疫细胞组成变化</strong>，
-            例如外周血中的
+            <strong>有丝分裂年龄（Mitotic Age）</strong>，
+            即通过估算组织干细胞在生命周期中累计发生的细胞分裂次数来衡量生物学年龄。此外，
+            <strong>免疫细胞组成变化</strong>
+            也是评估衰老的重要依据。例如外周血中的
             <strong>初始 T 细胞（Naive T Cells）</strong>
             和
             <strong>初始 B 细胞（Naive B Cells）</strong>
-            减少，这是免疫系统衰老的重要标志。基于这些指标建立的“细胞年龄”具有较好的客观性和量化能力，目前仍被广泛应用。
+            数量随年龄增长而减少，这是免疫系统衰老的重要标志。基于这些指标建立的“细胞年龄”具有较好的客观性和量化能力，目前仍被广泛应用。
         </p>
 
         <!-- Section 3 -->
@@ -741,9 +743,9 @@
     <div class="accordion-body">
 
         <p 
-            data-zh="我们通常使用 <strong>MAE（Mean Absolute Error，平均绝对误差）</strong> 来衡量模型预测的准确性。MAE 指的是模型预测值与真实值之间“平均相差多少”。MAE 越小，说明模型预测越准确；若 MAE 趋近于 0，则代表预测值与真实值完全一致。"
+            data-zh="我们通常使用 <strong>MAE（Mean Absolute Error，平均绝对误差）</strong> 来衡量模型预测的准确性。MAE 指的是模型预测值与真实值之间“平均相差多少”。MAE 越小，说明模型预测越准确；若 MAE 为 0，则代表预测值与真实值完全一致。"
 
-            data-en="We typically use <strong>MAE (Mean Absolute Error)</strong> to evaluate predictive accuracy. MAE measures the average difference between predicted values and true values. A smaller MAE indicates higher prediction accuracy, while an MAE approaching 0 means the predicted values are nearly identical to the true values.">
+            data-en="We typically use <strong>MAE (Mean Absolute Error)</strong> to evaluate prediction accuracy. MAE measures the average difference between predicted values and true values. A smaller MAE indicates higher accuracy, while an MAE of 0 means the predicted values are identical to the true values.">
             
             我们通常使用 <strong>MAE（Mean Absolute Error，平均绝对误差）</strong> 来衡量模型预测的准确性。MAE 指的是模型预测值与真实值之间“平均相差多少”。MAE 越小，说明模型预测越准确；若 MAE 为 0，则代表预测值与真实值完全一致。
         </p>
@@ -766,19 +768,19 @@
         </div>
 
         <p 
-            data-zh="然而，对于个体的“真实生物学年龄”而言，科学界目前尚不存在一个绝对精准、可直接测量的标准答案。因此，从严格意义上讲，我们无法直接判断哪一种模型最接近真实的机体内部年龄。在健康人群研究中，研究者通常会以 <strong>日历年龄（Chronological Age）</strong> 作为参考基准，从侧面评估模型的预测能力、稳定性与泛化性能。"
+            data-zh="然而，个体的“真实生物学年龄”目前仍无法被直接测量，科学界也尚不存在公认的“金标准（Gold Standard）”来准确评估生物学年龄。因此，从严格意义上讲，我们无法直接判断哪一种模型最接近机体真实的衰老状态。在健康人群研究中，研究者通常以 <strong>日历年龄（Chronological Age）</strong> 作为参考基准，从侧面评估模型的预测能力、稳定性与泛化性能。"
 
-            data-en="However, for an individual's “true biological age,” there is currently no absolute gold standard that can be directly measured. Strictly speaking, it is therefore impossible to determine which model is closest to the true internal aging state. In healthy-population studies, researchers commonly use <strong>chronological age</strong> as a reference benchmark to indirectly evaluate a model's predictive performance, robustness, and generalizability.">
+            data-en="However, an individual's “true biological age” cannot currently be measured directly, and there is no universally accepted <strong>gold standard</strong> for accurately determining biological age. Therefore, strictly speaking, it is impossible to know which model is closest to an individual's true biological aging state. In studies of healthy populations, researchers commonly use <strong>chronological age</strong> as a reference benchmark to indirectly evaluate a model's predictive accuracy, robustness, and generalizability.">
             
-            然而，对于个体的“真实生物学年龄”而言，科学界目前尚不存在一个绝对精准、可直接测量的标准答案。因此，从严格意义上讲，我们无法直接判断哪一种模型最接近真实的机体内部年龄。在健康人群研究中，研究者通常会以 <strong>日历年龄（Chronological Age）</strong> 作为参考基准，从侧面评估模型的预测能力、稳定性与泛化性能。
+            然而，个体的“真实生物学年龄”目前仍无法被直接测量，科学界也尚不存在公认的“金标准（Gold Standard）”来准确评估生物学年龄。因此，从严格意义上讲，我们无法直接判断哪一种模型最接近机体真实的衰老状态。在健康人群研究中，研究者通常以 <strong>日历年龄（Chronological Age）</strong> 作为参考基准，从侧面评估模型的预测能力、稳定性与泛化性能。
         </p>
 
         <p 
-            data-zh="在模型开发阶段的 <strong>交叉验证（Cross Validation）</strong> 中，MetaAge 在 2,182 个测试样本上的 MAE 仅为 <strong>1.68 岁</strong>。为了进一步评估 MetaAge 的泛化能力，我们还使用了一个完全独立的健康人群公开数据集（<strong>GEO: GSE235717</strong>）进行外部验证。值得强调的是，MetaAge 在训练与参数优化过程中 <strong>从未接触过该数据集</strong>。"
+            data-zh="在模型开发阶段的 <strong>交叉验证（Cross Validation）</strong> 中，MetaAge 在 2,182 个测试样本上的 MAE 仅为 <strong>1.68 岁</strong>。为了进一步评估 MetaAge 的外部泛化能力，我们还使用了两个完全独立的健康人群公开数据集进行外部验证：<strong>GSE235717</strong> 来自澳大利亚墨尔本，包含 35 名健康个体（年龄 23–77 岁）；<strong>GSE295450</strong> 来自匈牙利，包含 388 名健康个体（年龄 24–101 岁），其中包括 59 名曾获得奥运会金牌的运动员。值得强调的是，MetaAge 在训练与参数优化过程中 <strong>从未接触过这两个数据集</strong>。"
 
-            data-en="During the <strong>cross-validation</strong> phase of model development, MetaAge achieved an MAE of only <strong>1.68 years</strong> across 2,182 test samples. To further evaluate its generalizability, we additionally tested MetaAge on a completely independent healthy-population dataset (<strong>GEO: GSE235717</strong>). Importantly, MetaAge <strong>was never exposed to this dataset</strong> during training or parameter optimization.">
+            data-en="During the <strong>cross-validation</strong> phase of model development, MetaAge achieved an MAE of only <strong>1.68 years</strong> across 2,182 test samples. To further evaluate its external generalizability, we additionally tested MetaAge on two completely independent public healthy-population datasets: <strong>GSE235717</strong>, from Melbourne, Australia, including 35 healthy individuals aged 23–77 years; and <strong>GSE295450</strong>, from Hungary, including 388 healthy individuals aged 24–101 years, among whom 59 were Olympic gold medalists. Importantly, MetaAge <strong>was never exposed to either dataset</strong> during training or parameter optimization.">
             
-            在模型开发阶段的 <strong>交叉验证（Cross Validation）</strong> 中，MetaAge 在 2,182 个测试样本上的 MAE 仅为 <strong>1.68 岁</strong>。为了进一步评估 MetaAge 的泛化能力，我们还使用了一个完全独立的健康人群公开数据集（<strong>GEO: GSE235717</strong>）进行外部验证。值得强调的是，MetaAge 在训练与参数优化过程中 <strong>从未接触过该数据集</strong>。
+            在模型开发阶段的 <strong>交叉验证（Cross Validation）</strong> 中，MetaAge 在 2,182 个测试样本上的 MAE 仅为 <strong>1.68 岁</strong>。为了进一步评估 MetaAge 的外部泛化能力，我们还使用了两个完全独立的健康人群公开数据集进行外部验证：<strong>GSE235717</strong> 来自澳大利亚墨尔本，包含 35 名健康个体（年龄 23–77 岁）；<strong>GSE295450</strong> 来自匈牙利，包含 388 名健康个体（年龄 24–101 岁），其中包括 59 名曾获得奥运会金牌的运动员。值得强调的是，MetaAge 在训练与参数优化过程中 <strong>从未接触过这两个数据集</strong>。
         </p>
 
         <!-- Table -->
@@ -801,9 +803,15 @@
                         </th>
 
                         <th style="padding: 10px;"
-                            data-zh="独立外部验证 MAE（岁）[GSE235717]"
-                            data-en="Independent External Validation MAE (Years) [GSE235717]">
-                            独立外部验证 MAE（岁）[GSE235717]
+                            data-zh="外部验证 MAE（岁）<br>澳大利亚队列 GSE235717"
+                            data-en="External Validation MAE (Years)<br>Australian Cohort GSE235717">
+                            外部验证 MAE（岁）<br>澳大利亚队列 GSE235717
+                        </th>
+ 
+                        <th style="padding: 10px;"
+                            data-zh="外部验证 MAE（岁）<br>匈牙利队列 GSE295450"
+                            data-en="External Validation MAE (Years)<br>Hungarian Cohort GSE295450">
+                            外部验证 MAE（岁）<br>匈牙利队列 GSE295450
                         </th>
                     </tr>
                 </thead>
@@ -814,24 +822,28 @@
                         <td style="padding: 12px;">MetaAge</td>
                         <td style="padding: 12px;">1.68</td>
                         <td style="padding: 12px;">1.97</td>
+                        <td style="padding: 12px;">1.88</td>
                     </tr>
 
                     <tr style="border-bottom: 1px solid #e2e8f0; color: #475569;">
                         <td style="padding: 10px;">Horvath Skin &amp; Blood Clock</td>
                         <td style="padding: 10px;">3.27</td>
                         <td style="padding: 10px;">4.59</td>
+                        <td style="padding: 10px;">2.57</td>
                     </tr>
 
                     <tr style="border-bottom: 1px solid #e2e8f0; color: #475569;">
                         <td style="padding: 10px;">ZhangEN</td>
                         <td style="padding: 10px;">3.76</td>
                         <td style="padding: 10px;">3.49</td>
+                        <td style="padding: 10px;">2.98</td>
                     </tr>
 
                     <tr style="border-bottom: 1px solid #e2e8f0; color: #475569;">
                         <td style="padding: 10px;">GrimAge</td>
                         <td style="padding: 10px;">5.63</td>
                         <td style="padding: 10px;">7.31</td>
+                        <td style="padding: 10px;">3.08</td>
                     </tr>
 
                 </tbody>
@@ -839,11 +851,11 @@
         </div>
 
         <p 
-            data-zh="上述结果表明，无论是在内部测试还是在完全未知的独立外部验证队列中，<strong>MetaAge 的预测误差均明显低于目前国际上广泛使用的表观遗传时钟模型</strong>。这表明 MetaAge 不仅具有较高的预测准确性，同时也展现出了良好的稳定性与外部泛化能力。"
+            data-zh="上述结果表明，无论是在内部交叉验证，还是在两个完全独立且模型从未见过的外部验证队列中，<strong>MetaAge 的预测误差均显著低于多个国际上广泛使用的表观遗传时钟模型</strong>。这说明 MetaAge 不仅具有较高的年龄预测准确性，也展现出良好的稳定性和外部泛化能力。"
 
-            data-en="These results demonstrate that, both in internal testing and in completely independent external validation cohorts, <strong>MetaAge consistently achieves substantially lower prediction error than several widely used epigenetic clock models</strong>. This suggests that MetaAge provides not only high predictive accuracy, but also strong robustness and external generalizability.">
+            data-en="These results show that, both in internal cross-validation and in two completely independent external validation cohorts never seen by the model, <strong>MetaAge achieved lower prediction error than several widely used international epigenetic clock models</strong>. This indicates that MetaAge provides not only high age-prediction accuracy, but also strong robustness and external generalizability.">
             
-            上述结果表明，无论是在内部测试还是在完全未知的独立外部验证队列中，<strong>MetaAge 的预测误差均明显低于目前国际上广泛使用的表观遗传时钟模型</strong>。这表明 MetaAge 不仅具有较高的预测准确性，同时也展现出了良好的稳定性与外部泛化能力。
+            上述结果表明，无论是在内部交叉验证，还是在两个完全独立且模型从未见过的外部验证队列中，<strong>MetaAge 的预测误差均显著低于多个国际上广泛使用的表观遗传时钟模型</strong>。这说明 MetaAge 不仅具有较高的年龄预测准确性，也展现出良好的稳定性和外部泛化能力。
         </p>
 
     </div>
